@@ -26,8 +26,6 @@ spring:
     publisher-confirms: true
   redis:
     host: localhost
-    port: 3306
-    password: 123456
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
   resources:
