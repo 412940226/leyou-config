@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/leyou?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
     username: root
-    password: 123456
+    password: root
     hikari:
       maximum-pool-size: 200
       minimum-idle: 100
@@ -52,7 +52,7 @@ leyou:
     dataCenterId: 1
   jwt:
     cookieName: LY_TOKEN
-    pubKeyPath: /home/web/rsa.pub # 公钥地址
+    pubKeyPath: G:\tmp\rsa\rsa.pub # 公钥地址
   pay:
     appId: wx8397f8696b538317
     mchId: 1473426802
